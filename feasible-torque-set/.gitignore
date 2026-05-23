@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter / iPython ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- macOS ---
+._*
+.AppleDouble
+.LSOverride
+
+# --- Project-specific ---
+# Note: output/*.png IS tracked so GitHub viewers see the visual products
+# without having to clone and run main.py. Comment the next line back in
+# if you want output/ ignored.
+# output/
