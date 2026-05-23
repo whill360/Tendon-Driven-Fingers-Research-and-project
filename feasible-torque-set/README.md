@@ -37,22 +37,29 @@ of 8), principal-axis extents, flatness ratio.
 ## Key result
 
 The `ideal finger (hood-swept)` model reaches **5 of 8 octants** in
-(τ\_MCP, τ\_PIP, τ\_DIP) space. The 3 octants it cannot reach correspond
-exactly to the three classical IP-joint deformities:
+(τ\_MCP, τ\_PIP, τ\_DIP) space:
 
-| Octant | Posture name | Clinical etiology |
+- Reached: `+++`, `++-`, `+-+`, `+--`, `---`
+- Not reached: `-++`, `-+-`, `--+`
+
+Two of the three unreachable octants are classical IP-joint deformities
+that real fingers also can't actively produce:
+
+| Octant | Posture | Clinical etiology |
 |---|---|---|
-| `+-+` | swan-neck (model artifact, see below) | volar plate laxity / intrinsic tightness |
 | `-+-` | boutonniere | central slip rupture |
 | `--+` | mallet finger | terminal slip / FDP avulsion |
 
 The framework's geometric constraints (Minkowski-sum reachability under
-non-negative tendon activations) produce the same unreachability set that
+non-negative tendon activations) reproduce the same unreachability that
 biology produces clinically — these postures only appear when the
 anatomical coupling that prevents them is *damaged*.
 
-Healthy fingers naturally reach the same 5 octants the model does. Tested
-informally by trying each posture with my own hand.
+The third unreachable octant (`-++`, hook grip) is a model error — real
+fingers can do this trivially (carrying a bag handle). And conversely,
+the model wrongly *reaches* `+-+` (swan-neck), which is the third
+classical IP deformity. Both errors are diagnosed in "Honest limitations"
+below.
 
 ## Honest limitations
 
