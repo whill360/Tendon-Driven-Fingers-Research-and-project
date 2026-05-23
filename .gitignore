@@ -1,7 +1,37 @@
-# Obsidian workspace & cache
+# --- Obsidian per-machine UI state (don't sync across machines) ---
+.obsidian/workspace
 .obsidian/workspace.json
+.obsidian/workspace.json.bak
 .obsidian/workspace-mobile.json
-.obsidian/plugins/*/data.json
+.obsidian/workspaces.json
+
+# --- Obsidian-managed caches (regenerated automatically) ---
 .obsidian/cache
+
+# --- Obsidian local-only stuff ---
 .trash/
+
+# Note: .obsidian/plugins/*/data.json is INTENTIONALLY tracked so plugin
+# settings (including Obsidian Git itself) sync across machines. If a
+# specific plugin starts committing churn or secrets, ignore that one
+# individually here, e.g.:
+#   .obsidian/plugins/templater-obsidian/data.json
+
+# --- OS junk ---
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor temp files ---
+*~
+*.swp
+*.tmp
+
+# --- macOS resource forks / quarantine ---
+._*
+
+# --- Common dev/embedded-tool junk (in case you drop code in the vault) ---
+__pycache__/
+*.pyc
+node_modules/
+.venv/
