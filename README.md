@@ -17,7 +17,7 @@ python3 main.py
 
 ## Status
 
-Junior summer at Auburn (ME primary, CS secondary). Reading the Valero-Cuevas 2007 paper with more biomechanics and tendon driven robotics papers queued. Physical v1 (FP + FS + EE, 2 tendon Bowden cable drive) planned for early fall once I get vault access and printer time.
+Junior summer at Auburn (ME primary, CS secondary). Reading the Valero-Cuevas 2007 paper with more biomechanics and tendon driven robotics papers queued. Physical v1 (FP + FS + EE, 2 tendon Bowden cable drive) planned for late summer or early fall depending on when I finish the five papers.
 
 ## Key result so far
 
